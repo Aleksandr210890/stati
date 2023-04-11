@@ -1,0 +1,357 @@
+body,html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.conteiner {
+    max-width: 930px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+
+/*------------------header------------------------*/
+/*------------------header------------------------*/
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.header__logo {
+    margin-left: 10px;
+}
+
+.nav__item {
+    display: flex;
+}
+
+.nav__link {
+    margin-right: 20px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+}
+
+.nav__link:hover {
+    color: rgb(255, 0, 0);
+
+}
+
+.nav__link:last-child {
+    margin-right: 0px;
+}
+
+.nav__tim-pro {
+    margin-right: 15px;
+}
+
+.nav__tim-no {
+    margin-right: 15px;
+}
+
+.nav__tim-pro::before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    left: 89px;
+    background: url(../img/00.PNG) 0 0 / 100% no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.nav__tim-no::before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    left: 63px;
+    background: url(../img/00.PNG) 0 0 / 100% no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.header__seti {
+    display: flex;
+}
+
+.feys__icon {
+    margin-right: 5px;
+}
+
+.header__mova {
+    font-weight: 700;
+}
+
+.header__mova span {
+    font-weight: 700;
+    color: white;
+}
+
+.header__user-btn {
+    color: rgb(155, 155, 155);
+}
+
+.header__btn {
+    color: red;
+}
+
+.header__info {
+    margin-right: 10px;
+}
+
+.header__body {
+    margin: 10px 0px 10px;
+}
+
+.body__item {
+    display: flex;
+    margin-left: 120px;
+}
+
+.body__link {
+    margin-right: 20px;
+}
+
+.body__link:last-child {
+    margin-right: 0px;
+}
+
+.bor {
+    border: 1px solid rgb(155, 155, 155);
+}
+
+.body__icon {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.body__text {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 12px;
+}
+
+
+
+/*----------------------main---------------*/
+/*----------------------main---------------*/
+
+
+.main__icon {
+    margin-bottom: 12px;
+}
+
+.text__bl1 {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 12px;
+}
+
+.text__bl1 span {
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(20, 165, 233);
+}
+
+.text__bol {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.napus{
+    color: rgb(20, 165, 233)
+}
+.blog__reclama {
+    margin-bottom: 50px;
+
+}
+
+.text__bl2 {
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: red;
+}
+
+.text__bl22 {
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: red;
+    text-align: center;
+}
+
+.blog__reclamaa {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.zayvka {
+    max-width: 300px;
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom: 100px;
+}
+
+.btn-box{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 20px;
+    color: white;
+    width: 300px;
+    background-color: rgb(32, 138, 236);
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.questions__form-row {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.questions__form-labl {
+    margin-right: 25px;
+    flex: 1 1 auto;
+    color: rgb(89, 168, 204);
+}
+
+.questions__form-labl:last-child {
+    margin-right: 0;
+}
+
+.questions__text-labl {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.zayvka__title {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.questions__form-input,
+.questions__form-text {
+    display: block;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    padding: 13px 16px;
+    width: 100%;
+    margin: 8px 0px 20px;
+}
+
+.questions__form-input::placeholder,
+.questions__form-text::placeholder {
+    color: #9A9CA5;
+}
+
+.questions__form-text {
+    resize: none;
+    height: 128px;
+}
+
+.questions__form-labl {
+    margin-right: 50px;
+}
+
+.questions__labl {
+    display: flex;
+    width: 100%;
+}
+
+
+
+/*---------------glog2---------------------*/
+/*---------------glog2---------------------*/
+
+.coment{
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+.pol{
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.coment__info {
+
+}
+.info__img-osn img{
+    margin-bottom: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.info__text {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.info__text span{
+    font-size: 25px;
+}
+
+.info__img {
+    margin-bottom: 50px;
+}
+.comentariyy{
+    display: flex;
+}
+
+
+.coment__info1 {
+    margin: 80px 0px 80px;
+}
+
+.coment__info3 {
+    margin: 80px 0px 80px;
+}
+.coment__info5 {
+    margin: 80px 0px 80px;
+}
+.coment__info6 {
+    margin: 80px 0px 80px;
+}
+.coment__info7 {
+    margin: 80px 0px 80px;
+}
+.coment__info8 {
+    margin: 80px 0px 80px;
+}
+.coment__info9 {
+    margin: 80px 0px 80px;
+}
+.coment__info10 {
+    margin: 80px 0px 80px;
+}
+
+.akciy{
+    color: red;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
